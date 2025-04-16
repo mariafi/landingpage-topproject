@@ -5,6 +5,8 @@ body {
     font-family: "Roboto", sans-serif;
     flex: 1;
     justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
 }
 
 /* HEADER style */
@@ -202,3 +204,12 @@ a {
 }
 
 /* FOOTER style */
+
+.footer {
+    background-color: #1F2937;
+    color: #adadac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}

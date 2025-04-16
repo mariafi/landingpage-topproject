@@ -162,7 +162,43 @@ a {
 }
 
 /* SECTION FOUR style */
+.section-four {
+    display: flex;
+    border-radius: 20px;
+    background-color: #3882F6;
+    margin: 100px 300px;
+    padding: 50px 40px;
+    justify-content: space-around;
+}
 
+.left-four {
+    display: flex;
+    flex-direction: column;
+    color:#E5E7EB;
+}
 
+.cta {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.signup {
+    font-size: 22px;
+}
+
+.signup, .cta {
+    margin: 0;
+    padding: 0;
+}
+
+.section-four button {
+    font-size: 22px;
+    padding: 15px 20px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    border-radius: 15px;
+    border-width: 5px;
+}
 
 /* FOOTER style */
